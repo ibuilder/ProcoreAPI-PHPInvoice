@@ -1,0 +1,13 @@
+{
+    "name": "your-vendor/procoreapi-invoice",
+    "description": "Generate AIA G702/G703 invoices from Procore API budget data.",
+    "require": {
+        "php": ">=7.4",
+        "phpoffice/phpspreadsheet": "^1.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
