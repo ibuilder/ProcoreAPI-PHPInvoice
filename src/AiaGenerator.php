@@ -117,8 +117,8 @@ class AiaGenerator
         $retainageCompletedPercent = ($projectInfo['retainage_completed_percent'] ?? 10.0) / 100;
         $retainageStoredPercent = ($projectInfo['retainage_stored_percent'] ?? 10.0) / 100;
         // Optional: Get threshold values if implemented
-        // $reductionThresholdPercent = ($projectInfo['retainage_reduction_threshold'] ?? null);
-        // $reducedRetainagePercent = ($projectInfo['reduced_retainage_percent'] ?? null);
+        $reductionThresholdPercent = ($projectInfo['retainage_reduction_threshold'] ?? null); // Uncomment this
+        $reducedRetainagePercent = ($projectInfo['reduced_retainage_percent'] ?? null);     // Uncomment this
 
         foreach ($budgetData as $index => $item) {
             $sheet->setCellValue('A' . $currentRow, $index + 1); // Simple item number
