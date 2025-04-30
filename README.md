@@ -9,14 +9,14 @@ ProcoreAPI-Invoice
 ├── config
 │   └── config.php
 ├── includes
-│   ├── footer.php
-│   ├── header.php
 │   └── session.php
 ├── src
 │   ├── AiaGenerator.php
 │   ├── FileDownloader.php
 │   └── ProcoreApi.php
 ├── templates
+│   ├── footer.php
+│   ├── header.php
 │   ├── company_select.php
 │   ├── invoice_form.php
 │   └── login_form.php
